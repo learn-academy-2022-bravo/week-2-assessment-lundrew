@@ -20,13 +20,6 @@ const numbersArray1 = [6, 7, 8, 9, 10]
 const numbersArray2 = [24, 27, 30, 33, 36]
 // Expected output: [72, 81, 90, 99, 108]
 
-// Pseudo Code: 
-// start with describe
-// enter function "multBy3"
-// use "it" as a description of what we want to test
-// input the variables we are testing to see if the function works
-// input expect to have the test understand we want to use the function "multBy3" on the variables 
-
 describe("multBy3", () => {
     it("takes in an array of numbers and returns an array with all the numbers multiplied by 3.", () => {
       const numbersArray1 = []
@@ -35,6 +28,13 @@ describe("multBy3", () => {
       expect(multBy3(numbersArray2)).toEqual([])
     })
   })
+
+
+// Pseudo Code: 
+// Create a function called multBy3
+// input a param of array 
+// return the array and use the method map() to access the indexes
+// multiply the values within the array by 3
 
 
 // b) Create the function that makes the test pass.
@@ -60,13 +60,6 @@ const num2 = 0
 const num3 = -7
 // // Expected output: "-7 is not divisible by three"
 
-// Pseudo Code: 
-// start with describe
-// enter function "divisibleBy3"
-// use "it" as a description of what we want to test
-// input the variables we are testing to see if the function works
-// input expect to have the test understand we want to use the function "divisibleBy3" on the variables 
-
 describe("divisibleBy3", () => {
     it("takes in a number as an argument and decides if the number is evenly divisible by 3 or not", () => {
       const num1 = []
@@ -78,6 +71,13 @@ describe("divisibleBy3", () => {
     })
   })
 
+// Pseudo Code: 
+// create a function called "divisibleBy3"
+// create a param called "number"
+// create an if else statement
+// input the number modulo 3 strictly equal to 0
+// return divisible by 3 if true
+// return not divisible by 3 if not true
 
 // b) Create the function that makes the test pass.
 // // this is the passing test
@@ -107,13 +107,6 @@ const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
 const randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
 // Expected output: ["Temperature", "Database", "Chopsticks", "Mango", "Deduction"]
 
-// Pseudo Code: 
-// start with describe
-// enter function "upperCase"
-// use "it" as a description of what we want to test
-// input the variables we are testing to see if the function works
-// input expect to have the test understand we want to use the function "upperCase" on the variables 
-
 describe("upperCase", () => {
     it("takes in an array of words and returns an array with all the words capitalized.", () => {
       const randomNouns1 = []
@@ -123,6 +116,11 @@ describe("upperCase", () => {
     })
   })
 
+  // Pseudo Code: 
+  // create a function called "upperCase"
+  // place a param called "string"
+  // return the param and use the map () method to access the values
+  // return the value's first character and use the toUpperCase() method
 
 // // b) Create the function that makes the test pass.
 const upperCase = (string) => {
@@ -151,13 +149,6 @@ const vowelTester2 = "academy"
 const vowelTester3 = "challenges"
 // Expected output: 2
 
-// Pseudo Code: 
-// start with describe
-// enter function "vowelSpotter"
-// use "it" as a description of what we want to test
-// input the variables we are testing to see if the function works
-// input expect to have the test understand we want to use the function "vowelSpotter" on the variables 
-
 describe("vowelSpotter", () => {
     it("takes in a string and logs the index of the first vowel", () => {
       const vowelTester1 = []
@@ -169,7 +160,14 @@ describe("vowelSpotter", () => {
     })
   })
 
-
+// Pseudo Code: 
+// create a variable array with vowels 
+// create a function called "vowelSpotter"
+// input a parameter called value
+// create a new variable for foundIndexes
+// create a for loop to iterate through index of the input value
+// now push the found vowel to foundIndexes
+// return the foundIndexes
 
 // b) Create the function that makes the test pass.
 const vowels = ['a', 'e', 'i', 'o', 'u'];

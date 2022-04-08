@@ -70,3 +70,5 @@ console.log(learnStudent)
 
 // a) Your answer: student: "George", cohort: "Bravo", year: 2022
 // b) Verify and explain: My answer was correct because we are creating a new variable based off of the "Learn" class template. With the parameter as "name" and "this.student = name" we can create a new variable or class and pass an argument to "name", which gives "name" a new value such as "George".
+
+
